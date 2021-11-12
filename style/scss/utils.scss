@@ -1,0 +1,202 @@
+// 通用樣式
+
+// 通用樣式設定
+.h1 {
+    font-size: 4rem;
+  
+    @media (max-width: 768px) {
+      font-size: 3rem;
+    }
+  
+    @media (max-width: 375px) {
+      font-size: 2rem;
+    }
+  }
+  
+  .h2 {
+    font-size: 3rem;
+  
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  
+    @media (max-width: 375px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .h3 {
+    font-size: 2.25rem;
+  
+    @media (max-width: 768px) {
+      font-size: 1.25rem;
+    }
+  
+    @media (max-width: 375px) {
+      font-size: 1rem;
+    }
+  }
+  
+  .h4 {
+    font-size: 1.5rem;
+  
+    @media (max-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .h5 {
+    font-size: 3rem;
+  
+    @media (max-width: 768px) {
+      font-size: 1.75rem;
+    }
+  }
+  
+  .h6 {
+    font-size: 4.5rem;
+  
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  
+  .font-lg {
+    // nav字體
+    font-size: 1.25rem;
+  }
+  
+  .font-m {
+    //footer-nav
+    font-size: 1rem;
+  }
+  
+  .font-s {
+    font-size: 0.875rem;
+  }
+  
+  img {
+    vertical-align: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  
+    &:hover {
+      opacity: .5;
+    }
+  }
+  
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+  
+    @media (max-width: 768px) {
+      max-width: 690px;
+    }
+  
+    @media (max-width: 375px) {
+      max-width: 345px;
+    }
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .lg-align-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .s-align-start {
+    justify-content: start;
+    padding-left: 0;
+  }
+  
+  .d-inline-block {
+    display: inline-block;
+  }
+  
+  .s-display-none {
+    @media (max-width: 375px) {
+      display: none;
+    }
+  }
+  
+  .l-display-none {
+    display: none;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+
+  // 字體顏色
+.color-third {
+    color: $third;
+  }
+  
+  .color-primary {
+    color: $primary;
+  }
+  
+  // 各區塊相同的上內距
+  .brand,
+  .products,
+  .design,
+  .feedback,
+  .contact {
+    padding-top: 64px;
+  
+    @media (max-width: 768px) {
+      padding-top: 40px;
+    }
+  
+    @media (max-width: 375px) {
+      padding-top: 32px;
+    }
+  }
+  
+  // 各區塊相同的下內距
+  .products,
+  .design,
+  .feedback,
+  .contact {
+    padding-bottom: 80px;
+  
+    @media (max-width: 768px) {
+      padding-bottom: 40px;
+    }
+  
+    @media (max-width: 375px) {
+      padding-bottom: 32px;
+    }
+  }
+  
+  .h2-mb {
+    margin-bottom: 60px;
+  
+    @media (max-width: 768px) {
+      margin-bottom: 32px;
+    }
+  
+    @media (max-width: 375px) {
+      margin-bottom: 20px;
+    }
+  }

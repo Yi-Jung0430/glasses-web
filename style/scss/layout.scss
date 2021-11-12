@@ -1,0 +1,243 @@
+// 通用layout:header/footer/nav
+
+// 導覽列
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: $primary;
+    padding: 30px 88px;
+  
+    &__navbar {
+      a {
+        color: $light;
+      }
+    }
+  
+    &__link {
+      display: inline-block;
+  
+      &:not(:last-child) {
+        margin-right: 64px;
+      }
+    }
+  
+    @media (max-width: 375px) {
+      flex-direction: column;
+      padding: 0;
+  
+      &__logo {
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid $light;
+  
+        img {
+          width: 48px;
+          height: auto;
+        }
+      }
+  
+      &__navbar {
+        width: 100%;
+      }
+  
+      &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+      }
+  
+      &__link {
+        width: 50%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+        border-bottom: 2px solid $light;
+  
+        &:not(:last-child) {
+          margin-right: 0px;
+        }
+      }
+  
+      ul :nth-child(even) {
+        border-left: 2px solid $light;
+      }
+    }
+  }
+  
+
+  // footer
+.footer {
+    background-color: $primary;
+    padding: 40px 0;
+  
+    ul {
+      padding-left: 0;
+    }
+  
+    a,
+    p {
+      color: $light;
+      display: inline-block;
+    }
+  
+    &__nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+  
+    &__nav__items {
+      li:not(:last-child) {
+        margin-right: 48px;
+      }
+  
+      li {
+        display: inline-block;
+      }
+    }
+  
+    &__nav__icons {
+      li:not(:last-child) {
+        margin-right: 32px;
+      }
+  
+      li {
+        display: inline-block;
+      }
+    }
+  
+    &__icon {
+      width: 44px;
+      height: 44px;
+      margin-right: 12px;
+    }
+  
+    &__contact {
+      font-size: 36px;
+  
+      li:first-child {
+        margin-bottom: 19px;
+      }
+  
+      li:last-child {
+        border-bottom: 1px solid $light;
+        padding-bottom: 22px;
+      }
+    }
+  
+    &__Copyright {
+      justify-content: space-between;
+  
+      img {
+        margin-right: 38px;
+      }
+  
+      ul:last-child {
+        li:first-child {
+          margin-right: 62px;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 0;
+  
+      &__nav__items {
+        li:not(:last-child) {
+          margin-right: 40px;
+        }
+      }
+  
+      &__nav__icons {
+        li:not(:last-child) {
+          margin-right: 24px;
+        }
+      }
+  
+      &__contact {
+        font-size: 20px;
+  
+        li:last-child {
+          padding-bottom: 22px;
+        }
+      }
+  
+      &__icon {
+        width: 24px;
+        height: 24px;
+      }
+  
+      &__Copyright {
+  
+        ul:last-child {
+          li:first-child {
+            margin-right: 24px;
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 375px) {
+      padding: 0;
+  
+      &__nav__items {
+        display: none;
+      }
+  
+      &__contact {
+        font-size: 16px;
+        padding-left: 0;
+      }
+  
+      &__icon {
+        width: 20px;
+        height: 20px;
+      }
+  
+      &__Copyright {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 14px;
+      }
+  
+      li:last-child {
+        border-bottom: 0;
+      }
+  
+      &__nav__icons {
+        display: flex;
+        flex-wrap: nowrap;
+  
+        li:not(:last-child) {
+          margin-right: 16px;
+        }
+      }
+  
+      .sm-d-flex {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: start;
+      }
+  
+      .border-bottom {
+        border-bottom: 1px solid $light;
+      }
+  
+      .l-display-none {
+        display: block;
+        position: absolute;
+        width: 46px;
+        right:0;
+      }
+    }
+  }
+  

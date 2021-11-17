@@ -10,8 +10,10 @@
     padding: 30px 88px;
   
     &__navbar {
+      // a 標籤加上 display: block ，並藉由 padding 來增加點擊範圍
       a {
         color: $light;
+        display: block;
       }
     }
   
@@ -22,14 +24,26 @@
         margin-right: 64px;
       }
     }
+
+    // 建議 .header__logo div 使用 h1 標籤，h1 是可以優化 SEO ，
+    // 例如：許多網頁的 logo 都是頁面上重要的資訊，所以可以使用 h1 標籤。
+    // 附上參考網址（文字取代圖片）
+    &__logo h1 a {
+      background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png);
+      width: 80px;
+      height: 49px;
+      display: block;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
   
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       flex-direction: column;
       padding: 0;
-  
+
       &__logo {
-        padding: 10px 0;
-        text-align: center;
+        padding: 10px;
         width: 100%;
         border-bottom: 1px solid $light;
   
@@ -37,6 +51,11 @@
           width: 48px;
           height: auto;
         }
+      }
+
+      &__logo h1 a {
+        text-align: center;
+        margin: 0 auto;
       }
   
       &__navbar {
@@ -67,13 +86,22 @@
         border-left: 2px solid $light;
       }
     }
+
+    @media (max-width: 375px ) {
+      padding: 0;
+
+      &__logo h1 a {
+        width: 48px;
+        height: 30px;
+      }
+    }
   }
   
 
   // footer
 .footer {
     background-color: $primary;
-    padding: 40px 0;
+    padding: 40px 20px;
   
     ul {
       padding-left: 0;
@@ -129,6 +157,7 @@
       li:last-child {
         border-bottom: 1px solid $light;
         padding-bottom: 22px;
+        margin-bottom: 22px;
       }
     }
   
@@ -147,7 +176,7 @@
     }
   
     @media (max-width: 768px) {
-      padding: 0;
+      padding: 20px 10px;
   
       &__nav__items {
         li:not(:last-child) {
@@ -166,6 +195,7 @@
   
         li:last-child {
           padding-bottom: 22px;
+          
         }
       }
   
@@ -183,9 +213,13 @@
         }
       }
     }
+
+    @media (max-width: 680px) {
+
+    }
   
     @media (max-width: 375px) {
-      padding: 0;
+      padding: 10px 5px;
   
       &__nav__items {
         display: none;
@@ -236,7 +270,7 @@
         display: block;
         position: absolute;
         width: 46px;
-        right:0;
+        right: -5%;
       }
     }
   }

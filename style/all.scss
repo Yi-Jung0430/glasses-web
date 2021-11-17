@@ -1,16 +1,11 @@
-// 響應式斷點設計
-// lg:769以上 m:768~376px s:375px以下
+@import "scss/other/variables";
+@import "scss/other/utils";
+@import "scss/other/base.scss";
+@import "scss/other/components";
+@import "scss/other/layout";
 
-@import "scss/variables"; // 變數設定
-@import "scss/base"; //全站設定
-@import "scss/components"; // 通用元件
-@import "scss/layout"; // 通用layout
-@import "scss/utils";  // 通用樣式
-
-
-// 各頁面設定
+@import "scss/page/home";
 @import "scss/page/blog";
 @import "scss/page/faq";
-@import "scss/page/home";
 @import "scss/page/products";
-@import "scss/page/shop.scss";
+@import "scss/page/shop";

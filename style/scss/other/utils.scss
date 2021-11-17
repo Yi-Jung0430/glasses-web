@@ -93,17 +93,33 @@
       opacity: .5;
     }
   }
+
+  button::hover,
+  button:hover {
+    opacity: .5;
+  }
   
   .container {
     max-width: 1110px;
     margin: 0 auto;
+
+    // 標題下的外距
+    .h2 {
+      margin-bottom: 60px;
+    }
   
     @media (max-width: 768px) {
       max-width: 690px;
+      .h2 {
+        margin-bottom: 32px;
+      }
     }
   
     @media (max-width: 375px) {
       max-width: 345px;
+      .h2 {
+        margin-bottom: 20px;
+      }
     }
   }
   

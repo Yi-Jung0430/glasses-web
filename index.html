@@ -16,9 +16,12 @@
   <!-- 導覽列 -->
   <header class="header">
     <div class="header__logo">
-      <a href="index.html">
-        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png" alt="logo">
-      </a>
+      <h1>
+        <a href="index.html">六角眼鏡行
+          <!-- <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png" alt="logo"> -->
+        </a>
+      </h1>
+      
     </div>
     <div class="header__navbar">
       <ul class="header__items font-lg">
@@ -87,8 +90,8 @@
   </main>
   <!-- 經典系列 -->
   <section class="products">
-    <h2 class="text-center h2 color-third">經典系列鏡框</h2>
     <div class="container">
+      <h2 class="text-center h2 color-third">經典系列鏡框</h2>
       <ul>
         <li class="d-flex">
           <div class="optical-img s-display-none"></div>
@@ -199,56 +202,58 @@
   </section>
   <!-- 聯絡我們 -->
   <section class="contact">
-    <div class="contact__wrap">
-      <h2 class="h2 text-center">聯絡我們</h2>
-      <p class="font-lg">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-      <form action="index.html" id="contact-form">
-        <!-- 姓名 -->
-        <div class="contact__row">
-          <div class="contact__cell font-m">
-            <label for="name">姓名</label>
+    <div class="container">
+      <div class="contact__wrap">
+        <h2 class="h2 text-center">聯絡我們</h2>
+        <p class="font-lg">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+        <form action="index.html" id="contact-form">
+          <!-- 姓名 -->
+          <div class="contact__row">
+            <div class="contact__cell font-m">
+              <label for="name">姓名</label>
+            </div>
+            <div class="contact__input">
+              <input type="text" name="name" id="name" placeholder="陳小明">
+            </div>
           </div>
-          <div class="contact__input">
-            <input type="text" name="name" id="name" placeholder="陳小明">
+          <!-- 電話 -->
+          <div class="contact__row">
+            <div class="contact__cell font-m">
+              <label for="phone">聯絡電話</label>
+            </div>
+            <div class="contact__input">
+              <input type="number" name="phone" id="phone" placeholder="0912-345-678">
+            </div>
           </div>
-        </div>
-        <!-- 電話 -->
-        <div class="contact__row">
-          <div class="contact__cell font-m">
-            <label for="phone">聯絡電話</label>
+          <!-- 信箱 -->
+          <div class="contact__row">
+            <div class="contact__cell font-m">
+              <label for="mail">電子郵件</label>
+            </div>
+            <div class="contact__input">
+              <input type="mail" name="mail" id="mail" placeholder="example@email.com">
+            </div>
           </div>
-          <div class="contact__input">
-            <input type="number" name="phone" id="phone" placeholder="0912-345-678">
+          <!-- 意見 -->
+          <div class="contact__row">
+            <div class="contact__cell font-m">
+              <label for="feedback">意見反應</label>
+            </div>
+            <div class="contact__input">
+              <textarea type="text" name="feedback" id="feedback" placeholder="請輸入您的意見"></textarea>
+            </div>
           </div>
-        </div>
-        <!-- 信箱 -->
-        <div class="contact__row">
-          <div class="contact__cell font-m">
-            <label for="mail">電子郵件</label>
+          <!-- 隱私權同意 -->
+          <div class="contact__row h100">
+            <input class="checkbox" type="checkbox" name="feedback" id="feedback" placeholder="請輸入您的意見">
+            <label class="check-text" for="feedback">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
           </div>
-          <div class="contact__input">
-            <input type="mail" name="mail" id="mail" placeholder="example@email.com">
+          <!-- 送出按鈕 -->
+          <div class="contact__cell font-m text-center">
+            <button class="submit-btn" type="submit" form="contact-form">確認送出</button>
           </div>
-        </div>
-        <!-- 意見 -->
-        <div class="contact__row">
-          <div class="contact__cell font-m">
-            <label for="feedback">意見反應</label>
-          </div>
-          <div class="contact__input">
-            <textarea type="text" name="feedback" id="feedback" placeholder="請輸入您的意見"></textarea>
-          </div>
-        </div>
-        <!-- 隱私權同意 -->
-        <div class="contact__row h100">
-          <input class="checkbox" type="checkbox" name="feedback" id="feedback" placeholder="請輸入您的意見">
-          <label class="check-text" for="feedback">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
-        </div>
-        <!-- 送出按鈕 -->
-        <div class="contact__cell font-m text-center">
-          <button class="submit-btn" type="submit" form="contact-form">確認送出</button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </section>
   <!-- footer -->

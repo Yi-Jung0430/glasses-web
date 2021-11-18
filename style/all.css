@@ -165,6 +165,10 @@ button:hover {
   display: inline-block;
 }
 
+.d-block {
+  display: block;
+}
+
 @media (max-width: 375px) {
   .s-display-none {
     display: none;
@@ -933,7 +937,7 @@ h6 {
 .contact .checkbox {
   background-color: #faf2f2;
   width: 24px;
-  height: 14px;
+  height: 24px;
   margin-right: 4px;
 }
 
@@ -990,5 +994,126 @@ h6 {
   .contact__wrap {
     max-width: 345px;
   }
+}
+
+.sidebar {
+  border: 1px solid #DCDCDC;
+}
+
+.sidebar__title {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .sidebar__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 540px) {
+  .sidebar__title {
+    font-size: 14px;
+  }
+}
+
+.sidebar__icon {
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .sidebar__icon {
+    width: 32px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sidebar__icon {
+    width: 15px;
+    height: 12px;
+  }
+}
+
+.sidebar__link {
+  padding: 14px 30px;
+}
+
+@media (max-width: 900px) {
+  .sidebar__link {
+    padding: 10px 21px;
+  }
+}
+
+@media (max-width: 720px) {
+  .sidebar__link {
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 290px) {
+  .sidebar__link {
+    padding: 0px 0px;
+  }
+}
+
+.sidebar__link:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  border-bottom: 0.4rem solid #aa0601;
+}
+
+.sidebar .active {
+  border-bottom: 0.4rem solid #aa0601;
+}
+
+@media (max-width: 900px) {
+  .flex-grow {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
+
+.jubotron__img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 310px;
+}
+
+@media (max-width: 768px) {
+  .jubotron__img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  .jubotron__img {
+    height: 100px;
+  }
+}
+
+.jubotron__img__left {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-1.png);
+  padding-right: 15px;
+}
+
+.jubotron__img__right {
+  padding-left: 15px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-2.png);
+}
+
+.product__box {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product__flex {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=all.css.map */

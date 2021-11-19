@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGK,AAAD,cAAM,CAAC;EACH,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAChB;;AAEA,AAAD,oBAAY,CAAC;EACX,gBAAgB,EAAE,6FAA6F;EAC/G,aAAa,EAAE,IAAI;CACpB;;AAEA,AAAD,qBAAa,CAAC;EACZ,YAAY,EAAE,IAAI;EAClB,gBAAgB,EAAE,gEAAgE;CACnF",
-    "sources": [
-        "products_functional.scss"
-    ],
-    "names": [],
-    "file": "products_functional.css"
-}

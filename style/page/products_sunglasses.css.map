@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGK,AAAD,cAAM,CAAC;EACH,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAChB;;AAEA,AAAD,oBAAY,CAAC;EACX,gBAAgB,EAAE,+DAA+D;EACjF,aAAa,EAAE,IAAI;CACpB;;AAEA,AAAD,qBAAa,CAAC;EACZ,YAAY,EAAE,IAAI;EAClB,gBAAgB,EAAE,4DAA4D;CAC/E",
-    "sources": [
-        "products_sunglasses.scss"
-    ],
-    "names": [],
-    "file": "products_sunglasses.css"
-}

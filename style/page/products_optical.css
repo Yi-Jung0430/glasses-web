@@ -101,11 +101,9 @@
 
 .jubotron__img__left {
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-1.png);
-  padding-right: 15px;
 }
 
 .jubotron__img__right {
-  padding-left: 15px;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-2.png);
 }
 
@@ -115,12 +113,31 @@
 
 .products__img {
   height: 165px;
+  width: 100%;
+}
+
+@media screen and (max-width: 376px) {
+  .products__img {
+    width: 100%;
+  }
 }
 
 .products__box {
   width: 25%;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .products__box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .products__box {
+    width: 100%;
+  }
 }
 
 .products__box__flex {

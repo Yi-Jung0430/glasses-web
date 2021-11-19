@@ -1,1 +1,28 @@
 // 通用元件
+
+//paginations
+
+.pagination {
+    color: #555555 ;
+    margin-bottom: 20px;
+}
+
+.page-item {
+    text-align: center;
+    border: 1px solid #555555;
+    border-right: none ;
+    &:last-child{
+        border-right: 1px solid #555555 !important;
+        background-color: #F2F2F2;
+    }
+}
+
+.page-link {
+    display: block;
+    padding: 10px  12px;
+    color: #000000;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}

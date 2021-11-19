@@ -1,0 +1,18 @@
+.jubotron__img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 310px;
+}
+
+.jubotron__img__left {
+  background-image: url(../../assets/images/amos-bar-zeev-hVk6pIFbW9o-unsplash.jpg);
+  padding-right: 15px;
+}
+
+.jubotron__img__right {
+  padding-left: 15px;
+  background-image: url(../../assets/images/omid-armin-WxVm-UuuBpg-unsplash.jpg);
+}
+/*# sourceMappingURL=products_sunglasses.css.map */

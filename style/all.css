@@ -292,6 +292,33 @@ h6 {
   line-height: 1.2;
 }
 
+.pagination {
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.page-item {
+  text-align: center;
+  border: 1px solid #555555;
+  border-right: none;
+}
+
+.page-item:last-child {
+  border-right: 1px solid #555555 !important;
+  background-color: #F2F2F2;
+}
+
+.page-link {
+  display: block;
+  padding: 10px  12px;
+  color: #000000;
+}
+
+.page-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,8 +465,8 @@ h6 {
 }
 
 .footer__icon {
-  width: 44px;
-  height: 44px;
+  width: 30px;
+  height: 30px;
   margin-right: 12px;
 }
 
@@ -1099,12 +1126,25 @@ h6 {
 
 .jubotron__img__left {
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-1.png);
-  padding-right: 15px;
 }
 
 .jubotron__img__right {
-  padding-left: 15px;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-2.png);
+}
+
+.products .h3, .products .h4 {
+  font-weight: bold;
+}
+
+.products__img {
+  height: 165px;
+  width: 100%;
+}
+
+@media screen and (max-width: 376px) {
+  .products__img {
+    width: 100%;
+  }
 }
 
 .products__box {
@@ -1113,9 +1153,107 @@ h6 {
   padding-right: 15px;
 }
 
+@media screen and (max-width: 767px) {
+  .products__box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .products__box {
+    width: 100%;
+  }
+}
+
+.products__box__flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .products__flex {
   margin-top: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.products__box__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.products__box__price {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #AA0601;
+  font-weight: bold;
+}
+
+.color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -0.4rem;
+}
+
+.color li {
+  margin: 0.4rem;
+  padding: 0.6rem;
+  border-radius: 4px;
+}
+
+.type01 {
+  background: #5f3e2d;
+}
+
+.type02 {
+  background: #b75929;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .color {
+    margin: -0.2rem;
+  }
+  .color li {
+    margin: 0.2rem;
+    padding: 0.8rem;
+  }
+}
+
+.jubotron__img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 310px;
+}
+
+.jubotron__img__left {
+  background-image: url(../../assets/images/amos-bar-zeev-hVk6pIFbW9o-unsplash.jpg);
+  padding-right: 15px;
+}
+
+.jubotron__img__right {
+  padding-left: 15px;
+  background-image: url(../../assets/images/omid-armin-WxVm-UuuBpg-unsplash.jpg);
+}
+
+.jubotron__img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 310px;
+}
+
+.jubotron__img__left {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/blog-6.png);
+  padding-right: 15px;
+}
+
+.jubotron__img__right {
+  padding-left: 15px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-5.png);
 }
 /*# sourceMappingURL=all.css.map */

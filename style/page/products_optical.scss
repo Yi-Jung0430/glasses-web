@@ -6,6 +6,7 @@
     &__title {
         font-size: 30px;
         vertical-align: middle;
+        color: #000;
 
         @media (max-width: 768px) {
             font-size: 28px;
@@ -95,15 +96,73 @@
 // products
 
 .products {
+  .h3, .h4 {
+    font-weight: bold;
+  }
   
+  &__img {
+    height: 165px; 
+  }
+
   &__box {
     width: 25%;
     padding-left: 15px;
     padding-right: 15px;
   }
 
+  &__box__flex {
+    justify-content: space-between;
+  }
+
   &__flex {
     margin-top: 40px;
     flex-wrap: wrap;
   }
+
+  &__box__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__box__price {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #AA0601;
+    font-weight: bold;
+  }
 }
+
+.color{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  margin:-0.4rem
+}
+
+.color li{
+  margin:0.4rem;
+  padding:0.6rem;
+  border-radius:4px
+}
+
+.type01{
+  background:#5f3e2d;
+  
+}
+.type02{
+  background:#b75929;
+  
+}
+
+  @media only screen and (min-width: 0px) and (max-width: 767px){
+    .color{
+      margin:-0.2rem
+    }
+    .color li{
+      margin:0.2rem;
+      padding:0.8rem
+    }
+  }
+  

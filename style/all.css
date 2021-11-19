@@ -444,7 +444,7 @@ h6 {
 }
 
 .footer__contact {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .footer__contact li:first-child {
@@ -488,8 +488,8 @@ h6 {
     padding-bottom: 22px;
   }
   .footer__icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
   .footer__Copyright ul:last-child li:first-child {
     margin-right: 24px;
@@ -508,8 +508,8 @@ h6 {
     padding-left: 0;
   }
   .footer__icon {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
   .footer__Copyright {
     padding-left: 0;
@@ -1003,6 +1003,7 @@ h6 {
 .sidebar__title {
   font-size: 30px;
   vertical-align: middle;
+  color: #000;
 }
 
 @media (max-width: 768px) {
@@ -1106,13 +1107,14 @@ h6 {
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-2.png);
 }
 
-.product__box {
+.products__box {
   width: 25%;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.product__flex {
+.products__flex {
+  margin-top: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

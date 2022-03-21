@@ -46,4 +46,80 @@
   position: absolute;
   top: 70%;
 }
+
+.location__inputText {
+  font: normal normal normal 24px/30px Noto Sans;
+  vertical-align: middle;
+}
+
+.location__select {
+  width: 324px;
+  height: 45px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CED4DA;
+  padding-left: 10px;
+}
+
+.location__card {
+  margin-top: 32px;
+  width: 33.333%;
+  border: 1px solid #00000020;
+}
+
+@media screen and (max-width: 376px) {
+  .location__card {
+    width: 50%;
+  }
+}
+
+.locationBox {
+  margin-top: 16px;
+}
+
+.card__imageOne {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/locate2.jpg);
+}
+
+.card__image {
+  height: 224px;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__title {
+  text-align: left;
+  font: normal normal normal 24px/36px Noto Sans;
+  letter-spacing: 0px;
+  color: #212529;
+  border: 1px solid #00000020;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+.card__icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.card__text {
+  padding: 24px;
+}
+
+.card__button {
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #00000020;
+  width: 100%;
+  color: #fff;
+  font: normal normal normal 19px/26px Noto Sans;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+.textBox {
+  padding-bottom: 8px;
+}
 /*# sourceMappingURL=location.css.map */

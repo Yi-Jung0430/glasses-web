@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=blog.css.map */
+.blog__header {
+  background-color: #650300;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 96px;
+}
+
+.blog__menu li:not(:last-child) {
+  margin-right: 48px;
+}
+
+.blog__menu li {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: blod;
+}
+
+.blog__menu img {
+  float: right;
+  cursor: pointer;
+}
+
+.blog__area__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.blog__area__img {
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  margin-right: 30px;
+}
+
+.blog__area__text {
+  width: 45%;
+}
+
+.blog__area__text h2 {
+  font: normal normal normal 32px/63px Noto Sans;
+  letter-spacing: 0px;
+  color: #650300;
+}
+
+.blog__area__text p {
+  font: normal normal medium 20px/30px Roboto;
+  font: normal normal normal 20px/30px Noto Sans;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.blog__area__text p span {
+  float: right;
+}
+
+.blog__area__text p.small-text {
+  font: normal normal bold 20px/30px Roboto;
+  margin-bottom: 24px;
+}
+
+.blog__area__text a {
+  font: normal normal 900 36px/54px Roboto;
+  letter-spacing: 0px;
+  color: #650300;
+  display: block;
+  float: right;
+}
+/*# sourceMappingURL=blog.css.map */

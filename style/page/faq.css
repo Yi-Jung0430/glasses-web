@@ -1,1 +1,96 @@
-/* No CSS *//*# sourceMappingURL=faq.css.map */
+.faq {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/qa.png);
+  height: 304px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .faq {
+    height: 304px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .faq {
+    height: 143px;
+  }
+}
+
+.faq__title {
+  font-weight: bold;
+}
+
+.faq__icon {
+  width: 40px;
+  height: 58px;
+}
+
+@media screen and (max-width: 768px) {
+  .faq__icon {
+    width: 30px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .faq__icon {
+    width: 17px;
+    height: 24px;
+  }
+}
+
+.faq__position {
+  position: absolute;
+  top: 70%;
+}
+
+.faq__inputText {
+  font: normal normal normal 24px/30px Noto Sans;
+  vertical-align: middle;
+}
+
+.faq__select {
+  width: 324px;
+  height: 45px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CED4DA;
+  padding-left: 10px;
+}
+
+.faq__card {
+  margin-top: 32px;
+}
+
+.faq__h2 {
+  font-size: 32px;
+  line-height: 63px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 36px;
+  margin-top: 80px;
+}
+
+.faq__h3 {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 16px;
+}
+
+.faq__p {
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 2;
+  margin-bottom: 40px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.faq__list li:last-child {
+  margin-bottom: 300px;
+}
+/*# sourceMappingURL=faq.css.map */

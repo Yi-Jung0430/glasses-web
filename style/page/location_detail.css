@@ -1,0 +1,87 @@
+.location__detail__card {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 376px) {
+  .location__detail__flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.card__detail__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card__detail__item {
+  width: 40%;
+  border: 1px solid #00000020;
+  height: 100%;
+  margin-bottom: 32px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 376px) {
+  .card__detail__item {
+    width: 100%;
+  }
+}
+
+.card__detail__imageOne {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/locate.png);
+}
+
+.card__detail__image {
+  height: 224px;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__detail__title {
+  text-align: left;
+  font: normal normal normal 24px/36px Noto Sans;
+  letter-spacing: 0px;
+  color: #212529;
+  border-bottom: 1px solid #00000020;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+
+.card__detail__icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.card__detail__text {
+  padding: 24px;
+}
+
+.card__detail__button {
+  background: #000000 0% 0% no-repeat padding-box;
+  width: 100%;
+  color: #fff;
+  font: normal normal normal 19px/26px Noto Sans;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+
+.card__detail__map {
+  width: 60%;
+}
+
+@media screen and (max-width: 376px) {
+  .card__detail__map {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=location_detail.css.map */
